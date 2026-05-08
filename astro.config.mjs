@@ -73,7 +73,7 @@ let aepEditions = JSON.parse(fs.readFileSync("aep-editions.json"));
 
 // https://docs.astro.build/en/reference/configuration-reference/
 export default defineConfig({
-  site: "https://infusionsoft.github.io/aep-site-generator/",
+  site: "https://thryvlabs.github.io/aep-site-generator/",
   base: "/aep-site-generator/",
   redirects: redirects,
 
